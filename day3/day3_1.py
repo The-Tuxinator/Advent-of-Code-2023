@@ -1,5 +1,4 @@
 import re
-from pprint import pp
 
 
 def parse_numbers(line):
