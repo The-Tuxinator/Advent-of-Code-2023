@@ -12,7 +12,7 @@ def parse_symbols(line):
 
 def has_adjacent_symbol(number, symbols):
     for symbol in symbols:
-        if number.start()-1 <= symbol.start() <= number.end()+1:
+        if number.start()-1 <= symbol.start() <= number.end():
             return int(number.group(0))
     return 0
 
