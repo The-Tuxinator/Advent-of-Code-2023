@@ -14,3 +14,6 @@ Hey look! That thing I just learned is already back!
 Part one was delayed a bit because I kept tripping up on assumptions, always read the prompt carefully. And maybe don't code after midnight.
 
 Part two went much more smoothly, part 1 gave a solid base for the small changes I needed.
+
+## Day 3
+For the first task, typing was my enemy for some time, dealing with empty list items and the like, but I feel like I managed a fairly elegant solution to that all things considered.
