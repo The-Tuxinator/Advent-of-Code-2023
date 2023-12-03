@@ -1,6 +1,7 @@
 import re
 
 
+
 def max_game_colours(game):
     greens = [int(x) for x in re.findall(r"\d+(?= green)", game)]
     reds = [int(x) for x in re.findall(r"\d+(?= red)", game)]
