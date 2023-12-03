@@ -16,4 +16,8 @@ Part one was delayed a bit because I kept tripping up on assumptions, always rea
 Part two went much more smoothly, part 1 gave a solid base for the small changes I needed.
 
 ## Day 3
-For the first task, typing was my enemy for some time, dealing with empty list items and the like, but I feel like I managed a fairly elegant solution to that all things considered.
+Python Regex, you are going nowhere it seems
+
+For the first task, typing was my enemy for some time, dealing with empty list items and the like, but I feel like I managed a fairly elegant solution to that all things considered. Needed to read the documentation closer though, as I had an off by one from the match.end() index.
+
+The second task was another pretty smooth transition with the code being flexible enough to pivot quickly.
