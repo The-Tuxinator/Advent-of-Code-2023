@@ -2,22 +2,22 @@ from functools import reduce
 
 
 def source_to_destination(source, dest_map):
-    # if source in range(dest_map[1], dest_map[1]+dest_map[2]):
-    #     destination = (source - dest_map[1]) + dest_map[0]
-    #     return destination
+    if source in range(dest_map[1], dest_map[1]+dest_map[2]):
+        destination = (source - dest_map[1]) + dest_map[0]
+        return destination
     return 0
 
 
 def dest_map_breakdown(source, dest_map):
-    # dest_map = dest_map[1:]
-    # destination = 0
-    # # print(dest_map)
-    # for row in dest_map:
-    #     destination = source_to_destination(source, [int(x) for x in row.split()])
-    #     if destination:
-    #         # print(destination)
-    #         return destination
-    # # print(source)
+    dest_map = dest_map[1:]
+    destination = 0
+    # print(dest_map)
+    for row in dest_map:
+        destination = source_to_destination(source, [int(x) for x in row.split()])
+        if destination:
+            # print(destination)
+            return destination
+    # print(source)
     return source
 
 
