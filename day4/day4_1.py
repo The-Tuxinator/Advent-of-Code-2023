@@ -1,5 +1,3 @@
-from pprint import pp
-
 def card_breakdown(card):
     segments = card.split(":")[1].split("|")
     winning_nums = [int(x) for x in segments[0].split()]
